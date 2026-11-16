@@ -1,0 +1,13 @@
+[project]
+name = "car-game"
+version = "0.1.0"
+description = "A very basic browser car game"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+car-game = "car_game:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
