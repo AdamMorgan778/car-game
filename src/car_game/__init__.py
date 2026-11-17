@@ -6,7 +6,8 @@ import http.server
 import webbrowser
 from pathlib import Path
 
-STATIC_DIR = Path(__file__).parent / "static"
+# The game lives in docs/ so GitHub Pages can serve the same file.
+STATIC_DIR = Path(__file__).resolve().parents[2] / "docs"
 
 
 def main() -> None:
