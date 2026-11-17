@@ -20,3 +20,7 @@ You can also just open `src/car_game/static/index.html` directly in a browser.
 - **← / →** or **A / D** to change lanes
 - **Space** to start or restart
 - On a phone, tap the left or right half of the road
+
+## Poem
+
+The road has a poem: [Three Lanes](POEM.md).
